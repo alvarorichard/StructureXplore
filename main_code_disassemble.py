@@ -8,7 +8,8 @@ try:
   try:
     #call the function we created earlier
     fine_disassemble(exe)
-  except:
+  except(e):
     print('algo está errado com este arquivo exe')
+    print(e)
 except:
   print('pefile não pode analisar este arquivo')
