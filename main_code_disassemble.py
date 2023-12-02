@@ -1,4 +1,6 @@
-exe_file_path = 'path/to/exe/file'
+import pefile
+
+exe_file_path = 'main.exe'
 
 try:
   #parse exe file
@@ -7,6 +9,6 @@ try:
     #call the function we created earlier
     fine_disassemble(exe)
   except:
-    print('something is wrong with this exe file')
+    print('algo está errado com este arquivo exe')
 except:
-  print('pefile cannot parse this file')
+  print('pefile não pode analisar este arquivo')
