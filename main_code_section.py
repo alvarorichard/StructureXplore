@@ -1,3 +1,6 @@
+#the function takes two arguments, both are fetched from the exe file using
+#pefile. the first one is the list of all sections. The second one is the
+#address of the first instruction in the program
 def get_main_code_section(sections, base_of_code):
     addresses = []
     #get addresses of all sections

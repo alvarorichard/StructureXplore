@@ -1,6 +1,6 @@
 import pefile
 
-exe_file_path = 'main.exe'
+exe_file_path = '/home/krone/StructureXplore/main.exe'
 
 try:
   #parse exe file
